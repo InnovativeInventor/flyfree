@@ -1,41 +1,15 @@
-<p align="center">
-    <a href="https://github.com/mrgodhani/rss-reader">
-        <img alt="raven reader logo" src="https://github.com/mrgodhani/rss-reader/blob/master/raven-logo.png?raw=true" width="400">
-    </a>
-</p>
+# Fly Free
+Fly Free is a forever free fork of the now paid [Raven Reader](https://ravenreader.app) project.
 
-<p align="center">
-    <strong>All your articles in one place. Beautiful.</strong>
-</p>
-
-<p align="center">
-<img src="https://img.shields.io/github/package-json/v/hello-efficiency-inc/raven-reader">    
-<a href="https://travis-ci.org/mrgodhani/raven-reader">
-<img src="https://travis-ci.org/mrgodhani/raven-reader.svg?branch=master">
-</a>
-<a href="https://codeclimate.com/github/mrgodhani/raven-reader/maintainability">
-<img src="https://api.codeclimate.com/v1/badges/b19f2a2aaaeae1f85910/maintainability" />
-</a>
-<a href="https://david-dm.org/mrgodhani/raven-reader" title="dependencies status">
-<img src="https://david-dm.org/mrgodhani/raven-reader/status.svg"/>
-</a>
-<a href="https://david-dm.org/mrgodhani/raven-reader?type=dev" title="devDependencies status">
-<img src="https://david-dm.org/mrgodhani/raven-reader/dev-status.svg"/></a>
-<a title="MadeWithVueJs.com Shield" href="https://madewithvuejs.com/p/rss-reader-v2-0/shield-link"> <img src="https://madewithvuejs.com/storage/repo-shields/12-shield.svg"/></a>
-<a href="https://app.fossa.io/projects/git%2Bgithub.com%2Fmrgodhani%2Fraven-reader?ref=badge_shield" alt="FOSSA Status"><img src="https://app.fossa.io/api/projects/git%2Bgithub.com%2Fmrgodhani%2Fraven-reader.svg?type=shield"/></a>
-</p>
-
-## Download
-To download, please visit https://ravenreader.app and purchase license key ($9.99/year).
-**Moving forward all new release build would be an paid application. Previous releases will stay as it is and free. But no updates would be available.** If there are any questions please contact us at [welcome@helloefficiency.com](welcome@helloefficiency.com)
+## Install
+Download from releases or build using :
+```
+yarn build
+```
 
 ![newscreenshot](/newscreenshot.png)
 ![darkscreenshot](/darkscreenshot.png)
 ![sunsetscreenshot](/sunsetscreenshot.png)
-
-<a href="https://snapcraft.io/raven-reader">
-  <img alt="Get it from the Snap Store" src="https://snapcraft.io/static/images/badges/en/snap-store-black.svg" />
-</a>
 
 ## Features
 
@@ -58,19 +32,17 @@ To download, please visit https://ravenreader.app and purchase license key ($9.9
 - [x] Sidebar count
 - [x] Text size configuration
 - [x] Text font style configuration (Currently has Playfair Display, Muli, Open Sans and Roboto Slab)
-- [x] Supports categorizing of the feeds. 
+- [x] Supports categorizing of the feeds.
 - [x] macOS touchbar shortcuts
 
 ## Roadmap
-- [ ] Feedbin, Feedly and Inoreader full sync would be available in PRO
+- [ ] Feedbin, Feedly and Inoreader full sync
 - [x] New brand name and icons
 - [x] Text configuration
 - [ ] Supporting authenticated feeds
 - [ ] Feedly synchronization
 - [ ] Web app
 - [x] Pocket Integration
-- [ ] Moving to web based. Reason: NeDB won't be scalable and handle large datasets? Or look for different local db.
-- [ ] For ongoing support. Soon this would be a paid app with reasonable pricing per month.
 
 Please feel free to suggest more ideas to improve this app.
 
@@ -111,4 +83,4 @@ For more documentation please follow link from [Electron Vue](https://simulatedg
 
 
 ## License
-[LGPLv3](https://github.com/mrgodhani/rss-reader/blob/master/LICENSE)
+[LGPLv3](https://www.gnu.org/licenses/lgpl-3.0.en.html)
